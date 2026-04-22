@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern int sum_arrayay(int *array, int n);
+extern int sum_array(int *array, int n);
 
 int main(int argc, char *argv[])
 {
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
     fclose(f);
 
-    total = sum_arrayay(array, n);
+    total = sum_array(array, n);
 
     printf("Sum = %d\n", total);
 
